@@ -4,15 +4,6 @@
     <meta charset="utf-8">
     <title>Go by Example - IT: Errori</title>
     <link rel=stylesheet href="site.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YS5D7DR8P1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-YS5D7DR8P1');
-    </script>
   </head>
   <body>
     <div class="example" id="errori">
@@ -23,11 +14,10 @@
         <tr>
           <td class="docs">
             <p>In Go si è soliti comunicare errori attraverso un
-valore restituito esplicito e separato. Questo
-diversamente sia da quanto accade con le eccezioni
-usate in linguaggi come Java e Ruby che dall&rsquo;overloading
-di un singolo valore come risultato / errore
-che è a volte usato in C. L&rsquo;approccio
+valore restituito esplicito e separato. Questo al
+contrario delle eccezioni usate in linguaggi come Java
+e Ruby, e l&rsquo;overloading in un singolo risultato
+l&rsquo;errore, come a volte viene fatto in C. L&rsquo;approccio
 usato da Go rende facile capire quali funzioni possono
 generare errori e gestirli attraverso gli stessi
 costrutti utilizzati per qualsiasi altra attività che
@@ -45,7 +35,7 @@ non riguardi la gestione degli errori.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/Requires POST
+	        <a href="http://play.golang.org/p/Forbidden
 "><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
