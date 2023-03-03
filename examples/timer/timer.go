@@ -30,7 +30,7 @@ func main() {
     // Un buon caso d'uso per cui i timer risultano utili
     // è rappresentato dalla necessità di fermare il timer
     // prima che sia scattato. Qui vediamo un esempio di
-    // questo use caso d'uso.
+    // questo caso d'uso.
     timer2 := time.NewTimer(time.Second)
     go func() {
         <-timer2.C
