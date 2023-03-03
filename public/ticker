@@ -14,8 +14,7 @@
         <tr>
           <td class="docs">
             <p>I <a href="timer">timer</a> possono essere utilizzati
-quando è necessario effettuare qualcosa nel futuro
-nel futuro <em>solo una volta</em>. I <em>ticker</em>, d&rsquo;altra parte,
+quando è necessario effettuare qualcosa nel futuro <em>solo una volta</em>. I <em>ticker</em>, d&rsquo;altra parte,
 possono essere utilizzati quando è necessario svolgere
 un&rsquo;azione qualcosa ripetutamente a intervalli regolari.
 Di seguito un esempio di un ticker che &ldquo;ticchetta&rdquo;
